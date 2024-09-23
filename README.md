@@ -36,7 +36,7 @@ Prerequisite:
 
 The java main class is:
 
-edu.cs.utexas.HadoopEx.WordCount 
+edu.cs.utexas.HadoopEx.GPSErrorCount 
 
 Input file:  Book-Tiny.txt  
 
@@ -64,7 +64,7 @@ Running as Java Application:
 
 Or has hadoop application
 
-```hadoop jar your-hadoop-application.jar edu.cs.utexas.HadoopEx.WordCount arg0 arg1 ... ```
+```hadoop jar your-hadoop-application.jar edu.cs.utexas.HadoopEx.GPSErrorCount arg0 arg1 ... ```
 
 
 
