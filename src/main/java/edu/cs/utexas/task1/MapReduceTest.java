@@ -1,4 +1,4 @@
-package edu.cs.utexas.HadoopEx;
+package edu.cs.utexas.task1;
 
 import java.io.IOException;
 import java.util.StringTokenizer;

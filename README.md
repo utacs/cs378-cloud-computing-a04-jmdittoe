@@ -36,7 +36,7 @@ Prerequisite:
 
 The java main class is:
 
-edu.cs.utexas.HadoopEx.GPSErrorCount 
+edu.cs.utexas.task1.GPSErrorCount 
 
 Input file:  Book-Tiny.txt  
 
@@ -60,11 +60,9 @@ Inside your shell with Hadoop
 
 Running as Java Application:
 
-```java -jar target/MapReduce-WordCount-example-0.1-SNAPSHOT-jar-with-dependencies.jar taxi-data-sorted-small.csv  output```
+```java -jar target/task1.jar-jar-with-dependencies.jar taxi-data-sorted-small.csv output1```
 
-Or has hadoop application
-
-```hadoop jar your-hadoop-application.jar edu.cs.utexas.HadoopEx.GPSErrorCount arg0 arg1 ... ```
+```java -jar target/task3.jar-jar-with-dependencies.jar taxi-data-sorted-small.csv output3```
 
 
 

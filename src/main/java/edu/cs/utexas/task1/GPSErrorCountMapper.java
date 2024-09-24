@@ -1,4 +1,4 @@
-package edu.cs.utexas.HadoopEx;
+package edu.cs.utexas.task1;
 
 import java.io.IOException;
 import java.time.format.DateTimeParseException;
@@ -98,6 +98,5 @@ public class GPSErrorCountMapper extends Mapper<Object, Text, IntWritable, IntWr
 		if (DROPOFF_ERROR_FLAG) {
 			context.write(new IntWritable(dropoffHour), new IntWritable(1));
 		}
-
 	}
 }

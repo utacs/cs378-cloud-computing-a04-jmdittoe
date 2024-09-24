@@ -6,7 +6,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<name>Hadoop MapReduce</name>
 	<description>A Hadoop MapReduce example </description>
-	<groupId>edu.cs.utexas.HadoopEx</groupId>
+	<groupId>edu.cs.utexas.task1</groupId>
 	<artifactId>MapReduce-WordCount-example</artifactId>
 	<version>0.1-SNAPSHOT</version>
 
@@ -30,26 +30,42 @@
 						<goals>
 							<goal>single</goal>
 						</goals>
+						<id>task1</id>
+							<configuration>
+								<archive>
+									<manifest>
+										<mainClass>edu.cs.utexas.task1.GPSErrorCount</mainClass>
+									</manifest>
+								</archive>
+								<descriptorRefs>
+									<descriptorRef>jar-with-dependencies</descriptorRef>
+								</descriptorRefs>
+								<finalName>task1.jar</finalName>
+							</configuration>
+					</execution>
+					<execution>
+						<id>task3</id>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+						<configuration>
+							<archive>
+								<manifest>
+									<mainClass>edu.cs.utexas.task3.TaxiRunner</mainClass>
+								</manifest>
+							</archive>
+							<descriptorRefs>
+								<descriptorRef>jar-with-dependencies</descriptorRef>
+							</descriptorRefs>
+							<finalName>task3.jar</finalName>
+						</configuration>
 					</execution>
 				</executions>
-				<configuration>
-					<archive>
-						<manifest>
-							<mainClass>edu.cs.utexas.HadoopEx.GPSErrorCount</mainClass>
-						</manifest>
-					</archive>
-					<descriptorRefs>
-						<descriptorRef>jar-with-dependencies</descriptorRef>
-					</descriptorRefs>
-				</configuration>
 			</plugin>
-			
-			
-			
-			
-
 		</plugins>
 	</build>
+
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>

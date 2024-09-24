@@ -1,9 +1,8 @@
-package edu.cs.utexas.HadoopEx;
+package edu.cs.utexas.task1;
 
 import java.io.IOException;
 
 import org.apache.hadoop.io.IntWritable;
-import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
 public class GPSErrorCountReducer extends  Reducer<IntWritable, IntWritable, IntWritable, IntWritable> {
