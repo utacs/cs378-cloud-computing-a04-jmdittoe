@@ -32,7 +32,11 @@ public class GPSErrorCountMapper extends Mapper<Object, Text, IntWritable, IntWr
 		} catch (DateTimeParseException e) {
 			return;
 		}
-		pickupHour += 1; // convert from zero indexed to one indexed
+
+		//Since we are doing 1-24 index base, 0 represents 24 here
+		if(pickupHour==0){
+			pickupHour=24;
+		}
 
 		String dropoffDateTimeString = tokens[Constants.DROPOFF_DATETIME_INDEX];
 		int dropoffHour;
@@ -42,7 +46,10 @@ public class GPSErrorCountMapper extends Mapper<Object, Text, IntWritable, IntWr
 		} catch (NumberFormatException e) {
 			return;
 		}
-		dropoffHour += 1;
+
+		if(dropoffHour==0){
+			dropoffHour=24;
+		}
 
 		// Extract pickup and dropoff coordinates
 		String pickupLongitudeString = tokens[Constants.PICKUP_LONGITUDE_INDEX];
