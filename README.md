@@ -21,20 +21,30 @@
 
 # Add your Project REPORT HERE 
 
-## - Console
-![alt text](ScreenShots/Console.png "Title")
+## - Configuration
+![alt text](ScreenShots/Configuration.png "Title")
+
+## - Machines on Cluster
+![alt text](ScreenShots/MachinesRan.png "Title")
 
 ## - Result folder and jar files
 ![alt text](ScreenShots/OutputsAndJarFiles.png "Title")
+
+## - Jobs Ran
+![alt text](ScreenShots/Console.png "Title")
 
 ## - Task 1
 ![alt text](ScreenShots/Task-1-YARN.png "Title")
 
 ## - Task 2
 ![alt text](ScreenShots/Task-2-YARN.png "Title")
+### - TopK for Task 2
+![alt text](ScreenShots/Task-2-YARN-TopK.png "Title")
 
 ## - Task 3
 ![alt text](ScreenShots/Task-3-YARN.png "Title")
+### - TopK for Task 3
+![alt text](ScreenShots/Task-3-YARN-TopK.png "Title")
 
 
 # Project Template
