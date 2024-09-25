@@ -2,13 +2,14 @@
 
 ## Team members' names 
 
-1. Student Name:
-
-   Student UT EID:
-
-2. Student Name:
-
-   Student UT EID:
+1. Student Name: Jacob Dittoe  
+   Student UT EID: jmd6542
+2. Student Name: Sam Wang  
+   Student UT EID: scw2469
+3. Student Name: Ashton Mehta  
+   Student UT EID: anm4883
+4. Student Name: Nathan Cheng  
+   Student UT EID: nyc278
 
  ...
 
@@ -19,6 +20,21 @@
 
 
 # Add your Project REPORT HERE 
+
+## - Console
+![alt text](ScreenShots/Console.png "Title")
+
+## - Result folder and jar files
+![alt text](ScreenShots/OutputsAndJarFiles.png "Title")
+
+## - Task 1
+![alt text](ScreenShots/Task-1-YARN.png "Title")
+
+## - Task 2
+![alt text](ScreenShots/Task-2-YARN.png "Title")
+
+## - Task 3
+![alt text](ScreenShots/Task-3-YARN.png "Title")
 
 
 # Project Template
