@@ -62,7 +62,9 @@ Running as Java Application:
 
 ```java -jar target/task1.jar-jar-with-dependencies.jar taxi-data-sorted-small.csv output1```
 
-```java -jar target/task3.jar-jar-with-dependencies.jar taxi-data-sorted-small.csv output3```
+```java -jar target/task2.jar-jar-with-dependencies.jar taxi-data-sorted-small.csv intermediate2 output2```
+
+```java -jar target/task3.jar-jar-with-dependencies.jar taxi-data-sorted-small.csv intermediate3 output3```
 
 
 
